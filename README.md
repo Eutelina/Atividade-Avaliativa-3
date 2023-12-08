@@ -11,7 +11,7 @@ O Trabalho deve ser feito sozinho ou em pares. em caso de pares o NOME COMPLETO,
 
 Descrição:
 
-O programa deve ler números reais do teclado continuamente.
+O programa deve ler números reais do teclado continuamente. 
 A leitura deve ser encerrada quando o usuário inserir dois pontos seguidos (`..').
 O programa deve contar quantos números estão abaixo de 5, quantos estão no intervalo entre 5 e 15 (inclusive) e quantos estão acima de 15.
 A cada 20 números lidos, o programa deve imprimir as seguintes estatísticas:

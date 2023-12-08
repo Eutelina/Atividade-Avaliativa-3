@@ -1,7 +1,9 @@
 # Atividade-Avaliativa-3
 
-Nome Aluno: Eutelina Cristina Ramos Machado
+Nome Aluno: Eutelina Cristina Ramos Machado 
+
 Matrícula: 1230115563
+
 e-mail: 14799768735@veigadealmeida.edu.br / eutelinacrm@gmail.com
 
 Instruções
@@ -12,14 +14,23 @@ O Trabalho deve ser feito sozinho ou em pares. em caso de pares o NOME COMPLETO,
 Descrição:
 
 O programa deve ler números reais do teclado continuamente. 
+
 A leitura deve ser encerrada quando o usuário inserir dois pontos seguidos (`..').
+
 O programa deve contar quantos números estão abaixo de 5, quantos estão no intervalo entre 5 e 15 (inclusive) e quantos estão acima de 15.
+
 A cada 20 números lidos, o programa deve imprimir as seguintes estatísticas:
+
 Total de leituras abaixo de 5.
+
 Total de leituras no intervalo de 5 a 15.
+
 Total de leituras acima de 15.
+
 Média dos números no intervalo de 5 a 15.
+
 Percentual de números no intervalo de 5 a 15 em relação ao total de números lidos.
+
 Critérios de Avaliação:
 
 Corretude (50%): O programa deve funcionar conforme especificado, lendo números, encerrando a leitura corretamente e calculando as estatísticas pedidas.
@@ -33,20 +44,24 @@ Documentação e Comentários (10%): O código deve ser acompanhado de um cabeç
 Entrega:
 
 O trabalho deve ser entregue até a data especificada.
+
 O código-fonte deve ser submetido em um arquivo com extensão .c.
+
 Incluir um arquivo README com instruções para compilar e executar o programa, bem como quaisquer observações ou suposições feitas durante o desenvolvimento (este arquivo também deve incluir o nome dos participantes.
+
 Em caso de compressão para entregar os arquivos deve usar o formato zip.
 
 Ressolução:
-#include <stdio.h>
-#include <math.h>
-
-int main() {
+    
+    
+    #include <stdio.h>
+    #include <math.h>
+    
+    int main(){
     // Declaração de variávies responsáveis pelo laço
     double n;        // Variável para alteração do tipo
     char entrada[3], opcao; // Para armazenar a entrada do usuário
     int sair = 1;   // Variável para validar o laço
-
     //Declaração de variáveis para a contagem de dados de entrada
     int menor = 0, entre = 0, maior = 0;
     int total = 0, total2 = 0;
